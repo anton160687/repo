@@ -5,7 +5,7 @@ int num2 = num % 1000;
 int result = (num2 - num1) / 100;
 int num3 = num / 100;
 if (num3 != 0) {
-Console.WriteLine($"{num} {num2} {num1}  числа {result}");
+Console.WriteLine($"{result}");
 }
 else {
    Console.WriteLine("третьей цифры нет");
